@@ -10,4 +10,4 @@ add_test(t3 src/calculator mul 5 5)
 add_test(t4 src/calculator div 1 5)
 
 add_test(t5 src/calculator car 5)
-set_tests_properties(t5 PROPERTIES PASS_REGULAR_EXPRESSION "^25[.]0+$")
+set_tests_properties(t5 PROPERTIES PASS_REGULAR_EXPRESSION "25[.]000000")
